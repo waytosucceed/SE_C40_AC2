@@ -1,0 +1,167 @@
+[
+  {
+    "questionNo": "Q1",
+    "question": "A cyclist covers 3/5 of a journey at 15 km/h and the remaining 2/5 at 20 km/h. If the total journey is 100 km, how much time does he take to complete the journey?",
+    "options": [
+      "5.5 hours",
+      "6 hours",
+      "6.5 hours",
+      "7 hours"
+    ],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q2",
+    "question": "A biker planned to cover 9 km in 90 minutes. He covered two-thirds of the distance at 6 km/h and the remaining distance at a different speed. Find the speed for the remaining distance.",
+    "options": [
+      "6 km/h",
+      "7.5 km/h",
+      "8 km/h",
+      "9 km/h"
+    ],
+    "correct": 0
+  },
+  {
+    "questionNo": "Q3",
+    "question": "Two cyclists, A and B, start at the same time from the same point. The speed ratio of A to B is 5:4. If A covers 30 km in 2 hours, how much time will B take to cover the same distance?",
+    "options": [
+      "2 hours 30 minutes",
+      "3 hours",
+      "2 hours 40 minutes",
+      "2 hours 15 minutes"
+    ],
+    "correct": 0
+  },
+  {
+    "questionNo": "Q4",
+    "question": "A train's speed is increased by 25%, reducing travel time by 1 hour for a 125 km journey. What was the original speed?",
+    "options": [
+      "10 km/h",
+      "15 km/h",
+      "20 km/h",
+      "25 km/h"
+    ],
+    "correct": 3
+  },
+  {
+    "questionNo": "Q5",
+    "question": "Two runners, John and David, run around a rectangular park of perimeter 800 m. The ratio of their speeds is 3:2. If John completes 5 laps in the time David completes 3 laps, find their speeds.",
+    "options": [
+      "John = 12 km/h, David = 8 km/h",
+      "John = 15 km/h, David = 10 km/h",
+      "John = 18 km/h, David = 12 km/h",
+      "John = 9 km/h, David = 6 km/h"
+    ],
+    "correct": 0
+  },
+  {
+    "questionNo": "Q6",
+    "question": "A tortoise moves 5 inches per minute while walking in a straight line. How long will it take the tortoise to travel 600 yards?<br> (1 yard = 36 inches)",
+    "options": [
+      "72 hours",
+      "74 hours",
+      "76 hours",
+      "78 hours"
+    ],
+    "correct": 0
+  },
+  {
+    "questionNo": "Q7",
+    "question": "Jake is a delivery worker who covers 2400 meters in 4 minutes, while Emma covers 3200 meters in 5 minutes delivering packages. Who delivers faster, and by how much in km/h?",
+    "options": [
+      "Jake is faster by 2 km/h",
+      "Emma is faster by 2.4 km/h",
+      "Jake is faster by 1 km/h",
+      "Emma is faster by 1 km/h"
+    ],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q8",
+    "question": "A train takes 90 minutes to reach its destination at a speed of 80 km/h. Due to maintenance work on the track, its speed reduces by 20%. How much extra time will it take to complete the journey?",
+    "options": [
+      "15 minutes",
+      "18.5 minutes",
+      "20.5 minutes",
+      "22.5 minutes"
+    ],
+    "correct": 3
+  },
+  {
+    "questionNo": "Q9",
+    "question": "A person walks around a square garden at 5 km/h and completes one full round in 24 minutes. What is the perimeter of the garden?",
+    "options": [
+      "1.8 km",
+      "2 km",
+      "2.2 km",
+      "2.5 km"
+    ],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q10",
+    "question": "A person walks around a square-shaped park at 6 km/h. He completes exactly one and a half rounds in 30 minutes. What is the perimeter of the park?",
+    "options": [
+      "2 km",
+      "3 km",
+      "4 km",
+      "4.5 km"
+    ],
+    "correct": 0
+  },
+  {
+    "questionNo": "Q11",
+    "question": "Liam takes 36 minutes to cycle from Point X to Point Y.<br><br> His friend Noah cycles at three-quarters of Liam’s speed.<br><br> How long does it take Noah to cycle from X to Y?",
+    "options": [
+      "42 minutes",
+      "45 minutes",
+      "48 minutes",
+      "54 minutes"
+    ],
+    "correct": 2
+  },
+  {
+    "questionNo": "Q12",
+    "question": "The distance between Lincoln and York is 144 km.<br><br> Sarah takes 8,100 seconds to drive from Lincoln to York.<br><br> Sarah knows: '1 km = ⅝ miles'.<br><br> What is Sarah’s average speed in miles per hour?",
+    "options": [
+      "40 mph",
+      "50 mph",
+      "45 mph",
+      "55 mph"
+    ],
+    "correct": 2
+  },
+  {
+    "questionNo": "Q13",
+    "question": "Daniel runs along the perimeter of a rectangular park that is 100 m long and 50 m wide at a speed of 5 m/s. How much time will he take to complete 3 full laps around the park?",
+    "options": [
+      "100 s",
+      "120 s",
+      "180 s",
+      "200 s"
+    ],
+    "correct": 2
+  },
+  {
+    "questionNo": "Q14",
+    "question": "A runner covers 200 meters in 20 seconds, while a car takes 3 minutes to travel 6 km on a highway. Which one has the higher speed, the runner or the car?",
+    "options": [
+      "Runner is faster",
+      "Car is faster",
+      "Both have the same speed",
+      "Cannot be determined"
+    ],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q15",
+    "question": "In a high-speed railway test, two bullet trains, Lightning and Thunder, are competing on parallel tracks. The ratio of their speeds is 5:6. If Thunder covers 450 km in 5 hours, what is the speed of Lightning?",
+    "options": [
+      "60 km/h",
+      "65 km/h",
+      "72 km/h",
+      "75 km/h"
+    ],
+    "correct": 3
+  }
+]

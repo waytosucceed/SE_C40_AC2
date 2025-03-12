@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Reset and base styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.6;
+        background-color: #f0f3f5; /* Light gray */
+        color: #333; /* Dark gray */
+        margin: 0;
+      }
+
+      .container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #bbe9ff; /* Light blue */
+        /* padding: 20px; */
+      }
+
+      .header{
+  height:5%;
+  width:100%
+}
+
+      .company-logo {
+        height: 100%;
+      }
+
+      .content-container {
+        margin-top: 0.3rem;
+        width: 100%;
+        max-width: 1250px;
+        background-color: #ffffff; /* White */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 8px; /* Rounded corners */
+
+        img {
+          /* max-width: 100%; */
+          /* width: 45%; */
+          display: block;
+          margin: 1rem auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+      }
+
+      .lesson-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #333; /* Dark gray */
+        margin-bottom: 1rem;
+        text-align: center;
+        text-decoration: underline; /* Underline style */
+      }
+      .button-container {
+  position: fixed; /* Fix the button to the screen */
+  top: 10%; /* Set distance from top */
+  right: 10%; /* Set distance from left */
+  z-index: 100; /* Ensure the button stays above other content */
+}
+      .button {
+        
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 15px;
+        background-color: #4CAF50; /* Green */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1.4rem;
+        cursor: pointer;
+        text-align: center;
+      }
+
+      .probing-question {
+        margin-top: 1.5rem;
+        background-color: #f0f8ff; /* Light blue */
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      .probing-question div {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #444; /* Dark gray */
+        margin-bottom: 5px;
+      }
+
+      .probing-question p {
+        color: #666; /* Medium gray */
+      }
+
+      h2,
+      h3,
+      h4 {
+        color: #333; /* Dark gray */
+        margin-top: 1.5rem;
+        font-weight: bold; /* Bold font for all headings */
+      }
+
+      .learn-about {
+        background-color: palegreen;
+        border-radius: 1rem;
+        text-align: left;
+        margin: 1rem;
+        padding: 1rem 0;
+        li {
+          list-style-position: inside;
+          padding-left: 1rem;
+        }
+      }
+      footer {
+        width: 100%;
+      background: linear-gradient(145deg, #e6e6e6, #ffffff);
+      border-radius: 15px;
+      box-shadow: 5px 5px 15px #b3b3b3, -5px -5px 15px #ffffff;
+      padding: 20px;
+      text-align: center;
+      margin-top: 30px;
+      color: #333;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    footer::after {
+      content: '';
+      position: relative;
+      
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(10px);
+      /* z-index: 1; */
+      border-radius: 15px;
+    }
+
+    footer span {
+      position: relative;
+    }
+
+      p,
+      li {
+        color: #555; /* Medium gray */
+        font-size: 1.4rem;
+      }
+
+      ol,
+      ul {
+        margin-bottom: 1.5rem;
+        padding-left: 20px;
+      }
+      .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; /* Optional */
+    }
+    table {
+            width: 50%;
+            margin: auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+
+      hr {
+        border: none; /* Remove default border */
+        height: 2px; /* Set the height of the horizontal rule */
+        background-color: palevioletred; /* Color of the rule */
+      }
+      @media (max-width: 768px) {
+        .company-logo {
+          height: 75%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header" style="background-color:white;width:100%; box-shadow:5px 5px 10px rgb(0, 0, 0);  padding-bottom:10px;">
+        <img src="assests/logo/Logo_last.png" width="5%" style="float:left; margin-top:1.5%;" class="img-responsive">
+        <span> <img src="assests/logo/header.png" width="30%" height="80%" class="img-responsive"></span>
+      </div>
+
+      <div class="content-container">
+       
+          <div class="lesson-title">Word Problems on Speed, Distance, and Time involving Ratio, Fraction, and Percentage Concepts</div>
+
+        <div class="lesson-content">
+          <div>
+            <p>
+              <b style="color: blue;">Example (Ratio-Based):</b> 
+<br>Two runners, X and Y, start a race at the same time. The ratio of their speeds is 3:2. If X finishes a 24 km race in 2 hours, how long will Y take to complete the same race?
+<br><b style="color: #4CAF50;">Explanation:</b> Since, we know the distance covered by X in 2 hours, we first find the speed of X:
+
+<br><br>Speed of X = <math><mfrac bevelled="true"><mfrac><msup><mi style="font-size: 1.2rem;">Distance</mi></msup></mfrac><mfrac><msup><mi style="font-size: 1.2rem;">Time</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi style="font-size: 1.2rem;">24 km</mi></msup></mfrac><mfrac><msup><mi style="font-size: 1.2rem;">2 hours</mi></msup></mfrac></mfrac></math> = 12km/h
+
+<br><br>Next, use the speed ratio (X:Y = 3:2) to find Y’s speed:
+<br><br>Speed of Y = <math><mfrac bevelled="true"><mfrac><msup><mi style="font-size: 1.2rem;">2 × Speed of X</mi></msup></mfrac><mfrac><msup><mi style="font-size: 1.2rem;">3</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi style="font-size: 1.2rem;">2 × 12</mi></msup></mfrac><mfrac><msup><mi style="font-size: 1.2rem;">3</mi></msup></mfrac></mfrac></math> = 8km/h
+<br><br>Finally, find Y’s time:
+<br><br>Time taken by Y = <math><mfrac bevelled="true"><mfrac><msup><mi style="font-size: 1.2rem;">Distance</mi></msup></mfrac><mfrac><msup><mi style="font-size: 1.2rem;">Speed</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi style="font-size: 1.2rem;">24</mi></msup></mfrac><mfrac><msup><mi style="font-size: 1.2rem;">8</mi></msup></mfrac></mfrac></math> = 3hours
+
+<br><br><b style="color: blue;">Example (Fraction-Based):</b>
+<br>A bus covers 5/8 of a journey at 40 km/h and the remaining 3/8 at 60 km/h. If the total distance is 160 km, how much time does the bus take?
+<br><b style="color: #4CAF50;">Explanation:</b> Distance covered at 40 km/h:
+<br><br><math><mfrac bevelled="true"><mfrac><msup><mi style="font-size: 1.2rem;">5</mi></msup></mfrac><mfrac><msup><mi style="font-size: 1.2rem;">8</mi></msup></mfrac></mfrac></math> × 160 k = 100 km
+<br><br>Time taken for this part:
+<br><br>Time = <math><mfrac bevelled="true"><mfrac><msup><mi style="font-size: 1.2rem;">Distance</mi></msup></mfrac><mfrac><msup><mi style="font-size: 1.2rem;">Speed</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi style="font-size: 1.2rem;">100</mi></msup></mfrac><mfrac><msup><mi style="font-size: 1.2rem;">40</mi></msup></mfrac></mfrac></math> = 2.5 hours
+<br><br>Distance covered at 60 km/h:
+<br><br><math><mfrac bevelled="true"><mfrac><msup><mi style="font-size: 1.2rem;">3</mi></msup></mfrac><mfrac><msup><mi style="font-size: 1.2rem;">8</mi></msup></mfrac></mfrac></math> × 160 = 60 km
+<br><br>Time taken for this part:
+<br><br>Time = <math><mfrac bevelled="true"><mfrac><msup><mi style="font-size: 1.2rem;">Distance</mi></msup></mfrac><mfrac><msup><mi style="font-size: 1.2rem;">Speed</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi style="font-size: 1.2rem;">60</mi></msup></mfrac><mfrac><msup><mi style="font-size: 1.2rem;">60</mi></msup></mfrac></mfrac></math> = 1 hour
+<br><br>Therefore, the total time taken by the bus to cover a distance of 160 km = 2.5 hours + 1 hour = 3.5 hours
+
+
+<br><br><b style="color: blue;">Example (Percentage-Based):</b> 
+<br>A train takes 2 hours to travel 120 km at its usual speed. If its speed is reduced by 20%, how much extra time will it take?
+<br><b style="color: #4CAF50;">Explanation:</b> First we find the original speed:
+<br><br>Speed = <math><mfrac bevelled="true"><mfrac><msup><mi style="font-size: 1.2rem;">Distance</mi></msup></mfrac><mfrac><msup><mi style="font-size: 1.2rem;">Time</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi style="font-size: 1.2rem;">120 km</mi></msup></mfrac><mfrac><msup><mi style="font-size: 1.2rem;">2 hours</mi></msup></mfrac></mfrac></math> = 60 km/h
+
+<br><br>New speed after 20% reduction:
+<br><br>60 − (20% of 60) = 60 − 12 = 48 km/h
+<br><br>Time taken with reduced speed:
+<br><br>Time = <math><mfrac bevelled="true"><mfrac><msup><mi style="font-size: 1.2rem;">Distance</mi></msup></mfrac><mfrac><msup><mi style="font-size: 1.2rem;">Speed</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi style="font-size: 1.2rem;">120 km</mi></msup></mfrac><mfrac><msup><mi style="font-size: 1.2rem;">48 km/h</mi></msup></mfrac></mfrac></math> = 2.5 hours
+<br><br>Thus, the extra time bus will take with the reduced speed:
+<br><br>2.5 hours − 2 = 0.5 hours = 0.5 × 60 = 30 minutes
+            </p>
+          </div>
+        </div>
+        
+        
+        
+      </div>
+      <div class="button-container">
+        <a href="question.html" class="button">To Practice<br>Click Next</a>
+    </div>
+    </div>
+    <footer>
+      <span>Created By Team Way To Succeed</span>
+    </footer>
+  </body>
+</html>
